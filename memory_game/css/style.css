@@ -3,6 +3,16 @@ body {
   text-align: center;
   text-decoration: none;
 }
+header {
+  background: #F15B31;
+  color: #ffffff;
+  padding: 30px 20px;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
 h1,h2,h3,h4,a {
   text-transform: uppercase;
   letter-spacing: 1px;
@@ -10,7 +20,7 @@ h1,h2,h3,h4,a {
 }
 h1 {
   font-weight: 400;
-  color: #0D2C40;
+  margin: 0;
   text-decoration: underline;
 }
 h2 {
@@ -27,8 +37,30 @@ p {
 }
 
 a {
-  color: #F15B31;
+  color: #FFFFFF;
   font-weight: 600;
   font-size: 18px;
   text-decoration: none;
+  margin: 20px;
+}
+main {
+  width: 850px;
+  margin: 35px auto;
+}
+
+nav {
+  background: #00A6B3;
+  color #FFFFFF;
+  padding: 20px 0;
+}
+
+img {
+  margin: 40px 8px 0 8px;
+}
+
+footer {
+  background: #0D2C40;
+  margin: 0;
+  padding: 0;
+
 }
